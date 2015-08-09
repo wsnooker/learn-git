@@ -1,0 +1,8 @@
+git add file
+git commit -m "state"
+git status
+git diff file
+git log
+git reflog
+git reset --hard HEAD^/HEAD^^/.../HEAD~100
+git reset --hard commit_id
