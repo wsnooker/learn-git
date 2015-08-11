@@ -1,11 +1,28 @@
 git add file
+git rm file
 git commit -m "state"
 git status
 git diff file / git diff HEAD -- file
 git log
+git log --pretty=oneline
+git log --pretty=oneline --abbrev-commit
+git log --graph --pretty=oneline --abbrev-commit
 git reflog
 git reset --hard HEAD^/HEAD^^/.../HEAD~100
 git reset --hard commit_id
-git checkout -- file
-git reset HEAD file
+git checkout -- file (reset dir)
+git reset HEAD file (reset stage)
 
+git remote rm origin
+git remote add origin https://github.com/wsnooker/learn-git.git
+git clone gitwebaddr
+(https://github.com/wsnooker/learn-git.git)
+(git@github.com:wsnooker/learn-git.git)
+
+git branch
+git branch <name>
+git checkout <name>
+git checkout -b <name>
+git merge <name>
+git merge --no-ff -m "state" <name>
+git branch -d <name>
