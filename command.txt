@@ -17,9 +17,12 @@ git remote rm origin
 git remote add origin https://github.com/wsnooker/learn-git.git
 git push -u origin master
 git push origin master
+git push origin dev
 git clone gitwebaddr
 (https://github.com/wsnooker/learn-git.git)
 (git@github.com:wsnooker/learn-git.git)
+git origin
+git origin -v
 
 git branch
 git branch <name>
