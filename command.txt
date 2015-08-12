@@ -28,3 +28,10 @@ git checkout -b <name>
 git merge <name>
 git merge --no-ff -m "state" <name>
 git branch -d <name>
+git branch -D <name>
+
+git stash
+git stash list
+git stash apply + git stash drop
+git stash pop
+git stash apply stash@{id}
