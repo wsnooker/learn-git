@@ -50,4 +50,16 @@ git branch --set-upstream-to=origin/dev dev
 git pull
 fix conlicts & add & commit & push
 
+git tag <name>
+git tag <name> commit_id
+git tag -a <v1.0> -m "version 1.0 released"  commit_id
+git tag -s <v1.0> -m "version 1.0 released"	 commit_id
+git tag -d <name>
+git push origin <name>
+git push origin --tags
+git tag -d v1.0	(delete local tag)
+git push origin :refs/tags/v1.0 (delete remote tag)
+git tag
+git show <name>
+
 
