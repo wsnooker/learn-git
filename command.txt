@@ -21,7 +21,6 @@ git push origin dev
 git clone gitwebaddr
 (https://github.com/wsnooker/learn-git.git)
 (git@github.com:wsnooker/learn-git.git)
-git origin
 git origin -v
 
 git branch
