@@ -38,3 +38,16 @@ git stash list
 git stash apply + git stash drop
 git stash pop
 git stash apply stash@{id}
+
+git clone gitwebaddr (copy  only master branch)
+git checkout -b dev origin/dev (copy other branch @dev)
+vi dev/xx.txt
+git add dev/xx.txt
+git commit -m "revise xx.txt"
+git push origin dev
+git pull
+git branch --set-upstream-to=origin/dev dev
+git pull
+fix conlicts & add & commit & push
+
+
