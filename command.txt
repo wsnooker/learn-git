@@ -8,10 +8,11 @@ git log --pretty=oneline
 git log --pretty=oneline --abbrev-commit
 git log --graph --pretty=oneline --abbrev-commitgit 
 git reflog
+
+git checkout -- file (revoke modification)
+git reset HEAD file  (revoke stage/add)
 git reset --hard HEAD^/HEAD^^/.../HEAD~100
 git reset --hard commit_id
-git checkout -- file (reset dir)
-git reset HEAD file (reset stage)
 
 git remote rm origin
 git remote add origin https://github.com/wsnooker/learn-git.git
@@ -45,7 +46,7 @@ vi dev/xx.txt
 git add dev/xx.txt
 git commit -m "revise xx.txt"
 git push origin dev
-git pull
+git pull (fetch from remote origin)
 git branch --set-upstream-to=origin/dev dev
 git pull
 fix conlicts & add & commit & push
